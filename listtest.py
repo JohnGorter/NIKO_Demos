@@ -1,11 +1,10 @@
 
+john = "john"
 
-def init(a, b = 10):
-    print(a)
-    print(b)
-    return a + b 
-    
+def say():
+    '''
+    say is a function that says something
+    '''
+    print(john)
 
-result = init (10)
 
-print(result)
